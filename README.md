@@ -13,4 +13,4 @@ This is a source code to Try Transmit and Receive data With LoRa and ESP32S3
 | RST | GPIO 9 | Reset |
 | DIO0 | GPIO 8 | Interrupt / Digital IO 0 |
 | ANT | - | Antena 433 MHz / Kawat Tunggal 17.3 cm |
-| LED | GPIO 48 | Built-in WS2812 NeoPixel (Indikator Status) |
+| LED | GPIO 20 | LED 5mm / LED 3mm |
