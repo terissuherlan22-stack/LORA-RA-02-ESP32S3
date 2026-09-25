@@ -1,3 +1,15 @@
+/*Copyright by Teris Suherlan 2026 
+Pin LoRa RA-02 -> Pin ESP32-S3
+SCK -> GPIO 12 -> SPI Clock
+MISO -> GPIO 13 -> SPI Master In Slave Out
+MOSI -> GPIO 11 -> SPI Master Out Slave In
+NSS / SS -> GPIO 10 -> SPI Slave Select
+RST -> GPIO 9 -> Reset
+DIO0 -> GPIO 8 -> Interrupt / Digital IO 0
+ANT -> Antena (Kelarutan/Kabel 17.3 cm atau Antenna 433MHz)
+LED -> GPIO20
+*/
+
 #include <SPI.h>
 #include <LoRa.h>
 
