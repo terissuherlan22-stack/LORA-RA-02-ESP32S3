@@ -1,7 +1,7 @@
 # LORA-RA-02-ESP32S3
 This is a source code to Try Transmit and Receive data With LoRa and ESP32S3
 
-Pin Configuration :  
+Pin Configuration ESP32S3 to LoRa Ra-02:  
 
 SCK -> GPIO 12 -> SPI Clock
 MISO -> GPIO 13 -> SPI Master In Slave Out
